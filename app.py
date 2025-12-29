@@ -19,6 +19,14 @@ st.set_page_config(
     layout="wide",
 )
 
+hide_st_style = """
+            <style>
+            
+            header {visibility: hidden;}
+            
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 st.title("Need HRMS AI")
 st.caption("AI-assisted candidate ranking based on job requirements")
 
