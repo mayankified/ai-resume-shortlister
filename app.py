@@ -15,15 +15,15 @@ def skill_chips(skills, color="#2563eb"):
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-    page_title="AI Resume Shortlisting",
+    page_title="NEED HRMS AI Resume Shortlisting",
     layout="wide",
 )
 
-st.title("🤖 AI Resume Shortlisting System")
+st.title("Need HRMS AI")
 st.caption("AI-assisted candidate ranking based on job requirements")
 
 # ================= JOB INPUT =================
-st.markdown("## 🧾 Job Requirements")
+st.markdown("## Job Requirements")
 
 job_input_mode = st.radio(
     "Provide job requirements using",
